@@ -12,7 +12,7 @@ O objetivo aqui é como você criará algo mais eficáz para o usuário final.
 
 Segue a logo como referência para as cores:
 
-[Logo]
+![](https://mediarsolutions.com/wp-content/uploads/2020/04/Logo-full-mediar.png)
 
 Ao finalizar o projeto, nos envie pelo github de uma forma organizada e documentada, para que possamos executar sua página na nossa máquina local.  
 Explique dentro da documentação o porque de suas decisões de UI e UX.
