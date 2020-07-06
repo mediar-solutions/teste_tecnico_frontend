@@ -7,7 +7,7 @@ Abaixo está o exemplo de um de nossos painéis.
 
 ![](https://mediarsolutions.com/wp-content/uploads/2020/07/mediar_panel.png)
 
-Crie um endpoint em um framework **Javascript** de sua preferência usando a imagem a cima como referência. Tenha em mente que seu backend será em **Django ou Flask**. Fique a vontade para usar Lorem Ipsum e gráficos como exemplo. Porém a página deve seguir o mesmo esquema de cores da logo da empresa diferente da que se encontra acima.   
+Crie uma página em um framework **Javascript** de sua preferência usando a imagem a cima como referência. Tenha em mente que seu backend será em **Django ou Flask**. Fique a vontade para usar Lorem Ipsum e gráficos como exemplo. Porém a página deve seguir o mesmo esquema de cores da logo da empresa diferente da que se encontra acima.   
 O objetivo aqui é como você criará algo mais eficáz para o usuário final.
 
 Segue a logo como referência para as cores:
