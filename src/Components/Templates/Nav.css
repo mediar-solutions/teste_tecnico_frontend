@@ -1,0 +1,98 @@
+aside.menu-area{
+    background-color: var(--bg-white);
+    box-shadow: 
+        2px 0 10px rgba(0, 0, 0, 0.12),
+        2px 0 15px 0 rgba(0, 0, 0, 0.19)
+}
+
+.avatarProfile{
+    border-bottom: solid .5px #FFF;
+    background-color: #162635;
+    color: white;
+    font-weight: 700;
+    display: list-item;
+    text-align: center;
+    justify-items: center;
+    vertical-align: middle;
+    padding: 8px;
+}
+
+.avatarProfile label{
+    padding-bottom: 8px;
+}
+
+.avatarProfile .icon-profile{
+    color: #FFFF;
+    font-size: 4.0em;
+    padding-bottom: 5px;
+}
+
+
+.menu-area{
+    background: #0F2027; 
+    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to top, #2C5364, #203A43, #0F2027); 
+
+}
+
+.menu a{
+    display: flex;
+    vertical-align: middle;
+    text-decoration: none;
+    color:  gainsboro;
+    font-weight: 700 ;
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 98%;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 
+        2px 0 10px rgba(0, 0, 0, 0.12),
+        2px 0 15px 0 rgba(0, 0, 0, 0.19)
+}
+
+.menu a:hover,
+.menu a:focus {
+    background: linear-gradient(135deg, #162635 0%, #009CD6);
+    transition: ease-in-out .3s;
+    color: #fff;  
+}
+
+.menu a:hover .icon,
+.menu a:focus .icon {
+    color: #FFFF
+}
+
+
+.menu-area .menu label {
+    padding-left: 40px ;
+    margin-top: 10px;
+}
+
+.menu-area .menu .icon {
+    padding-left: 10px;
+    color: #dcdcdc;
+}
+
+/* MEDIA QUERIES */
+
+@media(max-width: 768px){
+    .menu {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .menu a{
+        display: inline;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .menu {
+        height: 100%;
+        justify-content: space-around;
+    }
+}

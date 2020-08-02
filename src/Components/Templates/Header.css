@@ -1,0 +1,37 @@
+
+.MuiFormGroup-root {
+    background: #0F2027;  
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+
+
+}
+.MuiFormControlLabel-root {
+    color: #FFFF;
+}
+
+.MuiFormControlLabel-root:hover {
+    text-shadow: 1px 0px 25px #ffffff;
+    transition: all ease-in-out 0.3s;
+    font-weight: 700;
+}
+
+.header .MuiSwitch-edgeEnd {
+    float: right;
+}
+
+.header .MuiAppBar-colorPrimary {
+    background: #0F2027;  
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+
+}
+
+.MuiFormControlLabel-root {
+    flex-flow: row-reverse;
+}
+
+.MuiIconButton-root:hover {
+  transform: scale(1.1);  
+  transition: ease-in-out;
+}

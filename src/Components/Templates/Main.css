@@ -1,0 +1,60 @@
+main > div {
+    background-color: #FFF ;
+    box-shadow: 0px 0px 15px #0004;
+    margin: 10px;
+    padding: 3px;
+    overflow: auto;
+}
+
+.content .main-header{
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .main-header .home-button{
+  color: #0F2027 ;
+  padding-right: 8px;
+}
+
+.home-button{
+  background-color: rgba(25,47,55, .3);
+  border-radius: 25px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.content .main-header .home-button:hover{
+  background-color: rgba(25,47,55, .7);
+  padding: 5px;
+}
+
+.middle-header{
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.content .main-content{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  justify-content: center;
+  justify-items: center;
+  padding: 12px;
+}
+
+.m-chart{
+  display: flex;
+  border-radius: .6rem;
+  flex-direction: column;
+  min-width: 300px;
+  box-shadow: 0px 0px 15px #0004;
+  box-sizing: border-box;
+}
+
+.kpi-chart {
+  margin-top: 30px;
+  
+}
