@@ -14,7 +14,7 @@ Este projeto foi iniciado com o [Create React App](https://github.com/facebook/c
 
 • Logout e Login - Visão do Status do sistema como de logado com nome de usuário e ao apertar o Logout o sistema disparar um modal avisando ao usuário se tem certeza de fazer o Logout e ir para página de Login. (Reconhecer e diagnosticas possibilidade de erros)
 
-• Estética minimalista - Dispondo do componentes do pacotes instalado, foi implementado um modelo mais minimalsita visando diminuir a poluição visual da tela com excesso de informações, jogando as informações mais detalhas para um rota de botão "LEARN MORE" onde o usuário poderia explorar melhor os dados de cada gráfico.
+• Estética minimalista - Dispondo do componentes do pacotes instalado, foi implementado um modelo mais minimalsita visando diminuir a poluição visual da tela com excesso de informações, jogando as informações mais detalhadas para um rota de botão "LEARN MORE" e "INFO" onde o usuário poderia explorar melhor os dados de cada gráfico e ter uma introdução do que o artefato trata.
 
 • Cores e constraste - Foi implementado um design e sistema de cores da empresa com padrões mais sóbrios, que visa a acessibilidade a usuário pode ter disfunções oculares que dificultem a visualização dos estados e cores do sistema.
 
