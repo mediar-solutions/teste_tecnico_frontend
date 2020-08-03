@@ -30,7 +30,7 @@ export default class Example extends PureComponent {
     return (
       <BarChart
         width={500}
-        height={300}
+        height={245}
         min-width={300}
         data={data}
         margin={{

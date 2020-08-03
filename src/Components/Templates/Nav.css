@@ -37,9 +37,10 @@ aside.menu-area{
 
 .menu a{
     display: flex;
+    cursor: pointer;
     vertical-align: middle;
     text-decoration: none;
-    color:  gainsboro;
+    color: #dcdcdc;
     font-weight: 700 ;
     font-size: 16px;
     margin: auto;
@@ -76,23 +77,3 @@ aside.menu-area{
     color: #dcdcdc;
 }
 
-/* MEDIA QUERIES */
-
-@media(max-width: 768px){
-    .menu {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    .menu a{
-        display: inline;
-        padding: 10px;
-        margin: 0px;
-    }
-
-    .menu {
-        height: 100%;
-        justify-content: space-around;
-    }
-}

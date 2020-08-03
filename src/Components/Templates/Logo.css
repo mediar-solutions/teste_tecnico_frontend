@@ -11,10 +11,3 @@ aside.logo img {
     width: 80%;
 }
 
-/* MEDIA QUERIES */ 
-
-@media(max-width: 576px){
-    aside.logo img{
-        width: 350px;
-    }
-}

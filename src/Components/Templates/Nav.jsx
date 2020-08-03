@@ -30,7 +30,7 @@ return (
         </a>
         <a href="#/user">
             <InfoIcon className="icon"  fontSize="large" color="disabled"/>
-            <label>Profile</label>
+            <label>Glossary</label>
         </a>
         
     </nav>

@@ -71,8 +71,8 @@ export default class Example extends PureComponent {
       <div>
         <LineChart
           width={500}
-          height={300}
-          min-width={300}
+          height={200}
+          min-width={350}
           data={data}
           margin={{
             top: 5, right: 30, left: 20, bottom: 5,

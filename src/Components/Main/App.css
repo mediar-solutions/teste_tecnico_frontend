@@ -55,37 +55,3 @@ footer.footer{
 }
 
 
-/* MEDIA QUERIES */
-
-@media(max-width: 768px) {
-    .app{
-        grid-template-rows: 
-            var(--header-height)
-            var(--menu-top-height)
-            1fr 
-            var(--foter-height);
-            grid-template-columns: var(--aside-width) 1fr;
-            grid-template-areas: 
-            "logo header"
-            "menu menu"
-            "footer footer"
-            ;
-    }
-}
-
-@media(max-width: 576px){
-    .app {
-        grid-template-rows: 
-            var(--logo-height)
-            var(--menu-top-height)
-            1fr
-            var(--foter-height);
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "logo"
-        "menu"
-        "content"
-        "footer"
-        ;
-    }
-}

@@ -49,12 +49,10 @@ main > div {
   display: flex;
   border-radius: .6rem;
   flex-direction: column;
-  min-width: 300px;
   box-shadow: 0px 0px 15px #0004;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 .kpi-chart {
   margin-top: 30px;
-  
 }

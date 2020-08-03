@@ -43,17 +43,17 @@ export default (props) => (
             <SelectorBrand/>
           </div>
           <div className="main-content">
-              <article className="m-chart">
+              <div className="m-chart">
                 <Conversion/>
-              </article>
-              <article className="m-chart">
+              </div>
+              <div className="m-chart">
                 <Metrics/>
-              </article>
+              </div>
           </div>
           <div className="kpi-chart m-chart">
-            <article className="m-chart">
+            <div className="m-chart">
               <Kpi/>
-            </article>
+            </div>
           </div>
         </div>
       </main>

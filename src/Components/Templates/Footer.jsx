@@ -1,6 +1,6 @@
 import './Footer.css'
 import React from 'react'
-import FooterSelectors from '../Templates/FooterSelectors'
+import FooterSelectors from '../../Components/Templates/Selectors/FooterSelectors'
 
 export default (props) =>
 <footer className="footer">
