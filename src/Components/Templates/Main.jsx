@@ -50,7 +50,7 @@ export default (props) => (
                 <Metrics/>
               </div>
           </div>
-          <div className="kpi-chart m-chart">
+          <div className="kpi-chart">
             <div className="m-chart">
               <Kpi/>
             </div>
