@@ -11,6 +11,7 @@ A plataforma da Mediar possui diversos painéis que são alimentados por dados q
 ## Objetivos
 - Fazer um "Fork" desse projeto ([saiba como](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo));
 - Criar uma página web com uma das seguintes tecnologias: Angular, React ou VueJS;
+- Use sua imaginação e crie componentes (NavBars, Buttons, Modals ou o que julgar necessário) para uma página amigável aos usuários;
 - Construir pelo menos 2 gráficos usando bibliotecas a sua escolha;
 - Criar pelo menos 1 filtro para um dos gráficos;
 - Ao menos um dos gráficos deve receber dados externos à sua aplicação (mais detalhes abaixo);
