@@ -4,7 +4,7 @@ import { Line, Bar } from 'react-chartjs-2';
 
 import styles from './Chart.module.css';
 
-const Chart = () => {
+const Chart = ({ data: { confirmed, deaths, recovered }, country }) => {
   const [dailyData, setDailyData] = useState([]);
 
   useEffect(() => {
@@ -13,7 +13,7 @@ const Chart = () => {
     }
 
     fetchAPI();
-  })
+  }, [])
 
   const lineChart = (
     dailyData.lenght !== 0
@@ -38,9 +38,29 @@ const Chart = () => {
       />) : null
   );
 
+  const barChart = (
+    confirmed
+      ? (
+        <Bar
+          data={{
+            labels: ['Infected', 'Recovered', 'Deaths'],
+            datasets: [{
+              label: 'People',
+              backgroundColor: ['rgba(52, 201, 246)','rgb(53, 216, 21)','rgba(249, 80, 67)']
+            }],
+            data:[confirmed.value, recovered.value, deaths.value]
+          }}
+          options={{
+            legend: { display: false },
+            title: { display: true, text:`Current state in ${country}`}
+          }}
+        />
+      ) : null
+  );
+
   return (
     <div className={styles.container}>
-      {lineChart}
+      {country ? barChart : lineChart}
     </div>
   )
 }
