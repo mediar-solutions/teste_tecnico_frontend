@@ -4,7 +4,7 @@ import { Chart, CountryPicker } from "./components";
 import styles from './App.module.css';
 import { fetchData} from './api';
 
-import mediarLogo from './images/logo.png';
+import mediarLogo from './assets/logo.png';
 
 class App extends React.Component {
   state = {
