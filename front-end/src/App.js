@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Chart, CountryPicker } from "./components";
+import { Chart, CountryPicker, SalesChart } from "./components";
 import styles from './App.module.css';
 import { fetchData} from './api';
 
@@ -33,6 +33,7 @@ class App extends React.Component {
         <img className={styles.image} src={mediarLogo} alt="Mediar company" />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country}/>
+        <SalesChart />
       </div>
     )
   }
