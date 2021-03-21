@@ -7,7 +7,7 @@ function SalesChart () {
     datasets: [
       {
         label: 'Vendas 2021 (M)',
-        data: [30, 20, 55],
+        data: [30, 20, 50],
         backgroundColor: [
           'rgba(249, 80, 67)',
           'rgba(52, 201, 246)',
@@ -17,9 +17,14 @@ function SalesChart () {
     ]
   };
 
+  const options = {
+    title: {
+      display: true,
+      text: 'Dados de venda mensal'
+    }
+  }
 
-
-  return <Doughnut data={data} />
+  return <Doughnut data={data} options={options} />
 };
 
 export default SalesChart
