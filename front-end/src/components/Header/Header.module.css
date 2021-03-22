@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  background-color: rgba(52, 201, 246);
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  padding-left: 2rem;
+}
+
+.header img {
+  padding: 1rem;
+  width: 12rem;
+}
