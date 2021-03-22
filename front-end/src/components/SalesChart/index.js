@@ -8,7 +8,6 @@ function SalesChart () {
     labels: ['Jan', 'Feb', 'Mar'],
     datasets: [
       {
-        label: 'Vendas 2021 (M)',
         data: [300, 200, 100],
         backgroundColor: [
           'rgba(249, 80, 67)',
@@ -23,11 +22,16 @@ function SalesChart () {
     title: {
       display: true,
       text: 'Dados de venda mensal'
-    }
+    },
   }
 
   return (
-    <Doughnut className={styles.container} data={data} options={options}/>
+    <>
+      <container className={styles.container}>
+        <h1>Vendas</h1>
+        <Doughnut className={styles.chart} data={data} options={options}/>
+      </container>
+    </>
   )
 };
 

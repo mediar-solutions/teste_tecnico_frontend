@@ -1,10 +1,8 @@
 import React from "react";
 
-import { Chart, CountryPicker, SalesChart } from "./components";
+import { Header, CovidChart, CountryPicker, SalesChart, Footer } from "./components";
 import styles from './App.module.css';
-import { fetchData} from './api';
-
-import mediarLogo from './assets/logo.png';
+import { fetchData} from './services';
 
 class App extends React.Component {
   state = {
@@ -14,13 +12,11 @@ class App extends React.Component {
 
   async componentDidMount() {
     const fetchedData = await fetchData();
-
     this.setState({ data: fetchedData });
   }
 
   handleCountryChange = async (country) => {
     const fetchedData = await fetchData(country);
-
     this.setState({ data: fetchedData, country: country });
   }
 
@@ -30,10 +26,11 @@ class App extends React.Component {
 
     return (
       <div className={styles.container}>
-        <img className={styles.image} src={mediarLogo} alt="Mediar company" />
+        <Header />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
-        <Chart data={data} country={country}/>
+        <CovidChart data={data} country={country}/>
         <SalesChart />
+        <Footer />
       </div>
     )
   }

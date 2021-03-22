@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { fetchDailyData } from '../../api';
+import { fetchDailyData } from '../../services';
 import { Line, Bar } from 'react-chartjs-2';
 
 import styles from './Chart.module.css';
@@ -61,9 +61,11 @@ const Chart = ({ data: { confirmed, deaths, recovered }, country }) => {
 
 
   return (
-    <div className={styles.container}>
-      {country ? barChart : lineChart}
-    </div>
+    <>
+      <div className={styles.container}>
+        {country ? barChart : lineChart}
+      </div>
+    </>
   )
 }
 

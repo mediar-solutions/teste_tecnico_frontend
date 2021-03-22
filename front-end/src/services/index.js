@@ -14,6 +14,7 @@ export const fetchData = async (country) => {
 
     return { confirmed, recovered, deaths, lastUpdate };
   } catch (error) {
+    alert('Something is wrong, please try again')
     console.log(error);
   }
 }
@@ -30,6 +31,7 @@ export const fetchDailyData = async () => {
 
     return modifiedData;
   } catch (error) {
+    alert('Something is wrong, please try again')
     console.log(error);
   }
 }
@@ -40,6 +42,7 @@ export const fetchCountries = async () => {
 
     return countries.map((country) => country.name);
   } catch (error) {
+    alert('Something is wrong, please try again')
     console.log(error);
   }
 }

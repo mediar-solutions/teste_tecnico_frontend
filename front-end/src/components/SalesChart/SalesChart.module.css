@@ -1,11 +1,21 @@
 .container {
-  display: flex;
+  width: 80%;
   justify-content: center;
-  width: 75%;
+  align-items: center;
+}
+
+.container h1 {
+  display: flex;
+  margin: 5rem 0 2rem 0;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 770px) {
   .container {
     width: 100%;
+  }
+  .container h1 {
+    margin: 4rem 0 0.5rem 0;
   }
 }

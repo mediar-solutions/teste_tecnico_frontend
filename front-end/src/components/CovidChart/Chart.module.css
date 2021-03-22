@@ -1,11 +1,15 @@
 .container {
   display: flex;
+  width: 50%;
+  flex-direction: row;
   justify-content: center;
-  width: 75%;
+  align-items: center;
 }
 
 @media (max-width: 770px) {
   .container {
-    width: 100%;
+    width: 90%;
   }
 }
+
+
